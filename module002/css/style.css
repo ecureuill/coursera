@@ -22,6 +22,8 @@ section{
 	
 	padding: 10px;
 	padding-top: 3em;
+
+	float:left;
 }
 
 section, .title{
@@ -66,7 +68,7 @@ section, .title{
 
 @media(min-width:992px)
 {
-	section
+	.col-lg-3
 	{
 		float:left;
 		width:32%;
@@ -75,13 +77,12 @@ section, .title{
 
 @media(min-width:768px) and (max-width:991px)
 {
-	section
+	.col-md-2
 	{
-		float:left;
 		width:48%;
 	}
 
-	#s3
+	.col-md-1
 	{
 		width:100%;
 	}
@@ -89,7 +90,7 @@ section, .title{
 
 @media(max-width:767px)
 {
-	section
+	.col-sm-1
 	{
 		width:100%;
 	}
